@@ -34,9 +34,6 @@ Perfect for cognitive training apps, neuroscience experiments, or just addictive
 
 ## Demo Screenshot
 
-![Gameplay](screenshot.png)
-*(Actual rotating maze in action – your brain will hurt in the best way)*
-
 ## How to Play – 10 Seconds Setup
 
 ```bash
