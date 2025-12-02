@@ -33,6 +33,7 @@ Perfect for cognitive training apps, neuroscience experiments, or just addictive
 - Fully commented single-file code (ideal for learning)
 
 ## Demo Screenshot
+<img width="2000" height="2588" alt="image" src="https://github.com/user-attachments/assets/b081927c-4fd9-4d08-86c3-d119ecb02543" />
 
 ## How to Play – 10 Seconds Setup
 
