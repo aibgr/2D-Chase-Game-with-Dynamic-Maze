@@ -1,7 +1,46 @@
-Game Overview
+# Penguin Rush – Dynamic Rotating Maze Chase Game
 
-This game is designed to enhance processing speed, a key cognitive skill referring to how quickly one can perceive information (visual, auditory, or motor) and respond automatically. The gameplay focuses on spatial orientation—awareness of one’s surroundings and ability to adapt to changes.
+A fast-paced 2D cognitive training game built with Pygame that challenges and improves **processing speed** and **spatial orientation** under rapidly changing conditions.
 
-The game is an extension of the classic maze format. A penguin, controlled with the arrow keys, must reach a target point. However, the twist is that the game board rotates multiple times by 90° during play, altering the function of the arrow keys. Players must quickly deduce the new control mappings and guide the penguin efficiently.
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
+[![Pygame](https://img.shields.io/badge/Pygame-2.5+-green.svg)](https://www.pygame.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 
-To increase the challenge, a rival black penguin starts from the same point and races toward the goal. If it arrives first, the player loses. Success depends on the player’s ability to rapidly process environmental changes and react accordingly.
+## Game Concept & Cognitive Goal
+
+Most maze games are static. This one is not.
+
+You control a **blue penguin** using arrow keys in a maze that **suddenly rotates 90°, 180°, or 270°** multiple times during the run.  
+When the board rotates → the meaning of Up/Down/Left/Right instantly changes!
+
+Meanwhile, a ruthless **black penguin (AI opponent)** starts from the same position and races to the fish.  
+If it gets there first → **you lose**.
+
+The game directly trains:
+- Ultra-fast mental rotation
+- Working memory under stress
+- Cognitive flexibility & processing speed
+
+Perfect for cognitive training apps, neuroscience experiments, or just addictive fun.
+
+## Features
+
+- Dynamic 90° board rotations at random intervals
+- Smart AI opponent with A* pathfinding (very hard to beat!)
+- Smooth animations and rotation effects
+- Score = time taken (lower = better)
+- Win/lose screen with replay option
+- Fully commented single-file code (ideal for learning)
+
+## Demo Screenshot
+
+![Gameplay](screenshot.png)
+*(Actual rotating maze in action – your brain will hurt in the best way)*
+
+## How to Play – 10 Seconds Setup
+
+```bash
+git clone https://github.com/aibgr/2D-Chase-Game-with-Dynamic-Maze.git
+cd 2D-Chase-Game-with-Dynamic-Maze
+pip install pygame
+python "Final Code.py"
